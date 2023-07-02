@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Car Palace</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+    	<a href="#"><img src="mpya.png" height="50" width="80" class="logo" alt="logo"></a>
+    	<div>
+    		<ul id="navbar">
+    			<li><a href="Home.html">HOME</a></li>
+    			<li><a href="Log in.html">Log in</a></li>
+    			<li><a href="Buy.html">Buy</a></li>
+    			<li><a href="contacts.html">Contacts</a></li>
+    		</ul>
+    	</div>
+    </section>
+    <h1>Register below</h1>
+	<div id="reg-form" >
+		<form>
+			<label for="first-name">First Name:</label>
+			<input type="text" name="first-name" placeholder="John" required>
+			<label for="last-name">Last Name:</label>
+			<input type="text" name="last-name" placeholder="Doe" required>
+
+			<div>
+				<label for="gender-male">Male</label>
+				<input type="radio" name="gender-choice" value="choice-1">
+				<label for="gender-female">Female</label>
+				<input type="radio" name="gender-choice" value="choice-1">
+				<label for="gender-other">Other</label>
+				<input type="radio" name="gender-choice" value="choice-1">
+			</div>
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="dfg@gmail.com" optional>
+			</div>
+			<div>
+				<label for="contact">Contact</label>
+				<input type="contact" name="contact" placeholder="+254123456789" required>
+			</div>
+			<div>
+				<label for="Date-of-Birth">Date of Birth</label>
+				<label for="Month">Month</label>
+				<select name="Month">
+					<option value="Jan">January</option>
+					<option value="Feb">February</option>
+					<option value="Mar">March</option>
+					<option value="Arp">April</option>
+					<option value="may">May</option>
+					<option value="Jun">June</option>
+					<option value="Jul">July</option>
+					<option value="Aug">August</option>
+					<option value="Sep">September</option>
+					<option value="Oct">Octeber</option>
+					<option value="Nov">November</option>
+					<option value="Dec">December</option>
+				</select>
+				<label for="Day">Day</label>
+				<input type="number" name="Day" placeholder="dd" required>
+				<label for="year">Year</label>
+				<input type="number" name="year" placeholder="yyyy" required>
+			</div>
+			<div>
+				<label for="password">Password</label>
+				<input type="password" name="password" placeholder="hfg.@j#" required>
+			</div>
+			<div>
+				<label for="confirm-password">Confirm-Password</label>
+				<input type="confirm-password" name="confirm-password" placeholder="hfg.@j#" required>
+			</div>
+			<label for="agree">I agree to all the terms and conditions of the form:</label>
+			<input type="checkbox" name="agree">
+
+			<button type="submit">Submit</button>
+
+		
+	    </form>
+		
+	</div>
+
+
+</body>
+</html>	
+
+
