@@ -53,6 +53,10 @@ button.normal{
 	transition: 0.2s;
 }
 body {
+	backgroung-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSI8BhEIo-pVP6hLPL8EhgSH5BnEb5aJl_pIDDNNzqcMzcDwHRZ2RrtXJdL-JKMTgR4l0&usqp=CAU");
+	background-repeat: no-repeat;
+	background-attachement: fixed;
+	backgroung-size: cover;
 	width: 100%;
 }
 #header {
