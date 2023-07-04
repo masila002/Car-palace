@@ -88,13 +88,13 @@ body {
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: 600;
-	color: #1a1a1a;
+	color: red;
 	transition: 0.5s ease;
 
 }
 #navbar li a:hover,
 #navbar li a.active {
-	color:#088178 ;
+	color:green ;
 }
 
 
@@ -104,7 +104,7 @@ body {
 	content: "";
 	width: 30%;
 	height: 2px;
-	background: #088178; 
+	background: gold; 
 	position: absolute;
 	bottom: -4px;
 	left: 20px;
