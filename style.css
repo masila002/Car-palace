@@ -13,15 +13,15 @@ h1{
 h2{
 	font-size: 46px;
 	line-height: 56px;
-	color: #222;
+	color: black;
 }
 h3{
 	font-size: 20px ;
-	color: #222;
+	color: black;
 }
 h4{
 	font-size: 20px;
-	color: #222;
+	color: black;
 }
 h6{
 	font-size: 12px;
@@ -29,7 +29,7 @@ h6{
 }
 p{
 	font-size: 20px;
-	color: #465b52;
+	color: black;
 	margin: 15px 0 20px 0;
 }
 . section-p1{
@@ -53,9 +53,10 @@ button.normal{
 	transition: 0.2s;
 }
 body {
-	background-color: url("https://cdn.wallpapersafari.com/21/6/IeEbhf.jpg");
+	background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg");
 	background-attachement: fixed;
 	backgroung-size: cover;
+	backgroung-repeat: no;
 	width: 100%;
 	
 }
@@ -142,51 +143,6 @@ body {
 	font-size: 15px;
 }
 
-#feature {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-#feature .fe-box{
-	width: 180px;
-	text-align: center;
-	padding: 25px 15px;
-	box-shadow: 20px 20px 34px rgba(0, 0, 0, o.03);
-	border: 1px solid white;
-	border-radius: 4px;
-	margin: 15px 0;
-}
-
-#feature .fe-box:hover {
-	box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
-} 
-#feature .fe-box img{
-	width: 100%;
-	margin-bottom: 10px;
-}
-
-#feature .fe-box h6{
-	display: inline-block;
-	padding: 9px 8px 6px 8px;
-	line-height: 1;
-	border-radius: 4px;
-	color: green;
-	background-color: white;
-}
-
-#feature .fe-box:nth-child(2) h6 {
-	color: orangered;
-}
-#feature .fe-box:nth-child(3) h6 {
-	color: darkgrey;
-}
-#feature .fe-box:nth-child(4) h6 {
-	color: brown;
-}
-#feature .fe-box:nth-child(5) h6 {
-	color: aliceblue;
-}
 #product1{
 	text-align: center;
 }
@@ -287,3 +243,22 @@ body {
 	color: floralwhite;
 	white-space: nowrap;
 }
+.back-video{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+	.back-vidoe{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio:16/9){
+	.back-vidoe{
+		width: auto;
+		height: 100%;
+	}
+}
+
