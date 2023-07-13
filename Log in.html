@@ -23,10 +23,12 @@
     <h1 style="background-color:blue; text-align:center;">Register below</h1>
 	<div id="reg-form" >
 		<form style="background-color:black;">
+			<div method="post" action="abc.jsp" onsubmit="return validateform()">
 			<label for="first-name">First Name:</label>
 			<input type="text" name="first-name" placeholder="John" required><br>
 			<label for="last-name">Last Name:</label>
 			<input type="text" name="last-name" placeholder="Doe" required><br>
+			</div>
 
 			<div>
 				<label for="gender-male">Male</label>
@@ -36,7 +38,7 @@
 				<label for="gender-other">Other</label>
 				<input type="radio" name="gender-choice" value="choice-1">
 			</div>
-			<div>
+			<div method="post" action="#"onsubmit="return validate();">
 				<label for="email">Email</label>
 				<input type="email" name="email" placeholder="dfg@gmail.com" optional>
 			</div>
@@ -66,11 +68,10 @@
 				<label for="year">Year</label>
 				<input type="number" name="year" placeholder="yyyy" required>
 			</div>
-			<div>
+			<div action="register.jsp" onsubmit="return matchpass()">
 				<label for="password">Password</label>
 				<input type="password" name="password" placeholder="hfg.@j#" required>
-			</div>
-			<div>
+				
 				<label for="confirm-password">Confirm-Password</label>
 				<input type="confirm-password" name="confirm-password" placeholder="hfg.@j#" required>
 			</div>
