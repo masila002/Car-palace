@@ -53,7 +53,7 @@ button.normal{
 	transition: 0.2s;
 }
 body {
-	background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-minimalistic-car-sales-green-background-material-image_132430.jpg")
+	background-image: url("https://images.unsplash.com/photo-1515825838458-f2a94b20105a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMGNvbG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=1400&q=60");
 	background-attachement: fixed;
 	backgroung-size: cover;
 	backgroung-repeat: no;
@@ -158,8 +158,6 @@ body {
 	width: 23%;
 	min-width: 250px;
 	padding: 10px 12px;
-	border: 1px solid orangered;
-	border-radius: 100%;
 	cursor: pointer;
 	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 	margin: 15px 0 ;
@@ -172,7 +170,6 @@ body {
 
 #product1 .pro image {
 	width: 100%;
-	border-radius: 20px;
 }
 
 #product1 .pro .des{
@@ -180,7 +177,7 @@ body {
 	padding: 10px 0;
 }
 #product1 .pro .des span{
-	color: grey;
+	color: black;
 	font-size: 12px;
 }
 
@@ -260,5 +257,17 @@ body {
 		width: auto;
 		height: 100%;
 	}
+}
+
+#reg-form{
+	width: 320px;
+	height: 420px;
+	background: black;
+	color: #fff;
+	top: 55%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	display: flex;
 }
 
