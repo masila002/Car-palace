@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	Please log in below.
+</head>
+<body>
+      <div id="log-in">
+      	<label for="email">Email</label>
+				<input type="email" name="email" placeholder="dfg@gmail.com" required>
+	   </div>
+	   <div>
+	   	<label for="password">Password</label>
+	   	<input type="password" name="password" placeholder="fgh@%3R" required> 
+	   </div>
+	   <a href="#">Forgot your password?</a><br>
+	   <a href="Log in.html">Don't have an account?</a>
+</body>
+<div>
+	<button><a href="Buy.html">Sign up</a></button>
+</div>
+</html>
